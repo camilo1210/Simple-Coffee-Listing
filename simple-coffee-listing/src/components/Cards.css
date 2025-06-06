@@ -1,0 +1,29 @@
+
+/* Card.css */
+.card {
+  padding: 1rem;
+  border-radius: 8px;
+  background: #1f1f1f;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.sold-out{
+  color: #ff0000;
+}
+
+.tag{
+
+  padding: 0.2em 0.5rem;
+  background-color: #ff9800;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  margin-top: 0.6rem;
+  margin-left: 0.5rem;
+  position: absolute;
+}
