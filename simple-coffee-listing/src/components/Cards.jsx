@@ -11,9 +11,9 @@ const Card = ({ coffee }) => {
         
         <div className="card-info">
         <div className="card-header">
-            <h3>{name}</h3>
-            <span className="price">${Number(price).toFixed(2)}</span>
-
+            <h3 className='name'>{name}
+                <span className="price">{String(price)}</span>
+            </h3>
         </div>
         {available ? (
             rating && votes ? (

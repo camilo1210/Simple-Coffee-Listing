@@ -1,20 +1,37 @@
 /* CoffeeList.css */
 
-
-body {
+section {
+  padding: 2rem;
+  background-image: url('../resources/bg-cafe.jpg');
+  background-color: #121212;
+  border-radius: 20px;
+    background-size: contain;
+  background-repeat: no-repeat
+  
+}
+.coffee-list-container {
   background-color: #121212;
   color: #fff;
   font-family: 'Inter', sans-serif;
+  background-size: contain;
+  background-repeat: no-repeat
 }
+
 
 
 .coffee-section {
   max-width: 900px;
   margin: 4rem auto;
-  padding: 2.5rem;
+  padding: 2.5rem;  
   background-color: #1f1f1f;
   border-radius: 20px;
   text-align: center;
+  background-image: url('../resources/vector.svg');
+  background-size: 200px 200px;
+  background-position:  right top;
+  background-repeat: no-repeat;
+
+
 }
 
 .coffee-list {
@@ -25,8 +42,13 @@ body {
 
 .description {
   color: #aaa;
-  font-size: 0.95rem;
+  font-size: 1.5rem;
   margin-bottom: 2rem;
+  font-weight: 300; 
+  line-height: 1.5;
+  max-width: 600px;
+
+  margin: 0 auto;
 }
 
 .filters{
